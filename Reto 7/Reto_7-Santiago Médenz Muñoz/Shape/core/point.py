@@ -22,7 +22,6 @@ class Point:
     def y(self, value: float):
         self._y = value
 
-    # Métodos previos para compatibilidad
     def get_x(self) -> float:
         return self._x
 
@@ -37,3 +36,4 @@ class Point:
 
     def compute_distance(self) -> float:
         return sqrt(self._x**2 + self._y**2)
+
